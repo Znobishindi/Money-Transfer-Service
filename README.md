@@ -26,11 +26,11 @@ FRONT доступен по адресу https://github.com/serp-ya/card-transfe
 * Код покрыт Unit - тестами, в том числе с использованием Mockito и Test Container
 ## Создание образа и запуск контейнера Docker
 * ### Через Dockerfile:
-  - Запускаем терминал и cобираем jar архив с нашим spring boot приложением: mvn package
-  - Создаем образ из нашего Dockerfile, мы должны запустить: docker build --tag=myapp:latest .
-  - Запускаем контейнер из нашего образа: docker run --rm -p5500:5500 -it myapp
+  - В терминале cобираем jar архив с нашим spring boot приложением: mvn package
+  - Создаем образ из написанного Dockerfile: docker build -t myapp:latest .
+  - Запускаем контейнер из образа: docker run -itd --name money_transfer_service -p 5550:5500 myapp:latest
 * ### Через docker-compose.yaml:
-  - Запускаем терминал и cобираем jar архив с нашим spring boot приложением: mvn package
+  -  В терминале cобираем jar архив с нашим spring boot приложением: mvn package
   - в терминале и выполнить команду: docker-compose up
   ## Как проверить?
   - Протестировать приложение в браузере: https://serp-ya.github.io/card-transfer/
