@@ -1,0 +1,15 @@
+"2023-03-31 16:40:03  INFO  - Starting MoneyTransferServiceApplication using Java 17.0.2 with PID 10048 (C:\Users\Денис\IdeaProjects\SQL\MoneyTransferService\target\classes started by Денис in C:\Users\Денис\IdeaProjects\SQL\MoneyTransferService)
+""2023-03-31 16:40:03  INFO  - No active profile set, falling back to 1 default profile: "default"
+""2023-03-31 16:40:04  INFO  - Tomcat initialized with port(s): 5500 (http)
+""2023-03-31 16:40:04  INFO  - Starting service [Tomcat]
+""2023-03-31 16:40:04  INFO  - Starting Servlet engine: [Apache Tomcat/10.1.5]
+""2023-03-31 16:40:04  INFO  - Initializing Spring embedded WebApplicationContext
+""2023-03-31 16:40:04  INFO  - Root WebApplicationContext: initialization completed in 1171 ms
+""2023-03-31 16:40:05  INFO  - Tomcat started on port(s): 5500 (http) with context path ''
+""2023-03-31 16:40:05  INFO  - Started MoneyTransferServiceApplication in 2.233 seconds (process running for 3.031)
+""2023-03-31 16:40:25  INFO  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2023-03-31 16:40:25  DEBUG - Money Transfer successful CREATED operationId = 1
+""2023-03-31 16:40:25  DEBUG - Money Transfer successful CONFIRMED, Transfer:TransferFromCardToCard{id=1, cardFromNumber='4790872327246458', cardFromValidTill='11/26', cardFromCVV='444', cardToNumber='4276420016563529'Amount{value=55555.0, currency='RUR'}} Commission:555.5500000000001
+""2023-03-31 16:40:42  DEBUG - Money Transfer successful CREATED operationId = 2
+""2023-03-31 16:40:42  DEBUG - Money Transfer successful CONFIRMED, Transfer:TransferFromCardToCard{id=2, cardFromNumber='4276420016563529', cardFromValidTill='02/24', cardFromCVV='444', cardToNumber='4790872327246458'Amount{value=1.0, currency='RUR'}} Commission:0.01
+"
