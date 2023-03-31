@@ -20,7 +20,7 @@ FRONT доступен по адресу https://github.com/serp-ya/card-transfe
 
 Весь api фронта был описан в соответствии yaml (https://github.com/netology-code/jd-homeworks/blob/master/diploma/MoneyTransferServiceSpecification.yaml) файла по спецификации openapi (подробнее тут https://swagger.io/specification/ и тут https://starkovden.github.io/introduction-openapi-and-swagger.html)
 ## Описание выполненного проекта
-* Реализовано REST`full интерфейс для интеграции с готовым FRONT (Rest controller, слои, валидация)
+* Реализовано RESTful интерфейс для интеграции с готовым FRONT (Rest controller, слои, валидация)
 * Для обработки исключений используется Controller advance c созданием собственного Response. (Для тестового вызова исключений необходимо раскомментировать строчки кода в методах класса MoneyTransferServiceRepository)
 * Для логирования применяется интерфейс SLF4j. Конфигурация  логгера в application.properties
 * Код покрыт Unit - тестами, в том числе с использованием Mockito и Test Container
